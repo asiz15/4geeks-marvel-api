@@ -1,0 +1,12 @@
+.img-fit{
+  object-fit: cover;
+  height: 400px;
+}
+
+.char-card{
+  border: none !important;
+  cursor: pointer;
+}
+.char-card:hover{
+  border: 1px solid black !important;
+}

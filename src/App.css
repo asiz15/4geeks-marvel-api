@@ -4,9 +4,18 @@
 }
 
 .char-card{
-  border: none !important;
+
+  border: 2px solid rgba(0, 0, 0, 0) !important;
   cursor: pointer;
 }
+
 .char-card:hover{
-  border: 1px solid black !important;
+  box-shadow: 4px 4px 15px #00000086;
+}
+.char-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
